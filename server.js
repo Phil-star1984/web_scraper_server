@@ -11,6 +11,8 @@ let corsOptions = {
     "https://kickass-projects-phil-star1984.vercel.app",
     "https://kickass-projects-git-main-phil-star1984.vercel.app",
     "http://localhost:5173",
+    "https://kickass-projects-7ieaqh8qd-phil-star1984.vercel.app/weeksix",
+    "https://kickass-projects-git-weektwo-phil-star1984.vercel.app/weeksix",
   ],
 };
 app.use(cors(corsOptions));
