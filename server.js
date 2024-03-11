@@ -5,7 +5,7 @@ import { parseHTML, scrapeSite } from "./controller/scrapeController.js";
 const app = express();
 const port = process.env.PORT || 5000;
 
-let corsOptions = {
+/* let corsOptions = {
   origin: [
     "https://kickass-projects.vercel.app",
     "https://kickass-projects-phil-star1984.vercel.app",
@@ -14,8 +14,8 @@ let corsOptions = {
     "https://kickass-projects-7ieaqh8qd-phil-star1984.vercel.app/weeksix",
     "https://kickass-projects-git-weektwo-phil-star1984.vercel.app/weeksix",
   ],
-};
-app.use(cors(corsOptions));
+}; */
+app.use(cors());
 
 app.get("/scrape", async (req, res) => {
   const url =
